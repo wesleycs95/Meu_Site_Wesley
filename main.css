@@ -6,22 +6,21 @@
 
 header,
 section h2,
-section h3,
-form button {
-    font-family: 'Bungee', cursive;
+section h3{
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
 }
 
-body,
-input,
-textarea{
-    font-family: 'Roboto', sans-serif;
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    background-color: rgba(51, 169, 247, 0.145);
 }
 
 header{
-    padding: 16px 0;
-    background-color: #182c61;
-    color:#ecf0f1
+    padding: 26px 0;
+    background-color: #293452;
+    color:#ecf0f1;
 }
 
 header nav li{
@@ -37,7 +36,7 @@ header nav li a{
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
 }
@@ -49,11 +48,20 @@ section .container{
     justify-content: space-between;
 }
 
-.brands-list img{
-    height: 24px;
+.wesley {
+    float: right;
+    width: 30%;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
 }
 
-.brands-list li {
+.competencias-list img{
+    margin-top: 10px;
+    height: 50px;
+}
+
+.competencias-list li {
     display: inline;
     margin: 8px;
 }
@@ -63,14 +71,14 @@ section .container{
 }
 
 section {
-    padding: 24px 0;
+    padding: 30px 0;
 }
 
 section h2 {
     margin-bottom: 16px;  
 }
 
-section{
+section {
     color: #182c61;
 }
 
@@ -78,68 +86,33 @@ section p {
     margin-bottom: 8px;
 }
 
-.store-front {
-    margin-right: 32px;
-}
-
 .social-link img {
-    height: 24px;
+    height: 50px;
+
 }
 
 .social-link li{
     display: inline;
     margin-right: 8px;
+    
 }
 
 .social-link li a {
     text-decoration: none;  
 }
 
-#contact .container {
-    display:block
-}
-
-.contact-methods {
+#contact .container{
     display: flex;
-    justify-content: space-between;
-}
-
-form input, 
-form textarea, 
-form button{
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-form textarea{
-    resize: none;
-    height: 180px;
+    
 }
 
 section h3{
     margin-bottom: 16px;
 }
 
-form button{
-    background-color: #182c61 ;
-    color:#ecf0f1;
-    border:none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color:#3c58a7;
-}
-
-input:focus, textarea:focus{
-    outline-color: #182c61;
-}
 
 footer{
     background-color: #182c61;
     color: #ecf0f1;
-    padding: 16px 0;
-
+    padding: 18px 0;
 }
